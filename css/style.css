@@ -200,8 +200,9 @@ button.welcome_start:hover{
     width: 1171px;          
     height: 961px;             
     margin: 3505px auto 1105px auto;
-    position: relative;   
-}
+    position: relative;  
+    margin-bottom: 133.79px; 
+    }
 
 /* - заголовок блога с градиентным текстом - */
 .blog-header h2 {
@@ -248,7 +249,7 @@ button.welcome_start:hover{
     margin-right: 1.16px;
 }
 
-/* - контейнер для контента большой карточки - */
+/* - для контента большой карточки - */
 .main-card-content {
     width: 417.03px;
     height: 406.71px;
@@ -264,7 +265,7 @@ button.welcome_start:hover{
     width: 100%;
     height: 130.47px;
     object-fit: cover;
-    font-size: 60px;
+    font-size: 16px;
 }
 
 /* - изображение для большой карточки - */
@@ -274,7 +275,7 @@ button.welcome_start:hover{
     object-fit: cover;
 }
 
-/* - контентная область маленьких карточек - */
+/* -для контента маленьких карточек - */
 .blog-content {
     width: 327.34px;
     height: 193.37px;
@@ -388,6 +389,7 @@ button.welcome_start:hover{
     height: 90.74px;
     margin: 0;
 }
+
 /* - flex контейнер для контента карточек - */
 .blog-content,
 .main-card-content {
@@ -405,4 +407,84 @@ button.welcome_start:hover{
 /* - высота контента большой карточки - */
 .main-card-content {
     height: calc(100% - 287.34px);
+}
+
+
+
+
+
+
+
+
+
+
+/* Секция "Будущее" */
+/* Основной цветной блок */
+.future {
+    width: 100%;
+    height: 950px;
+    background: #031B34;
+    margin-top: 133.79px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Выравниваем по верху */
+    position: relative;
+}
+
+/* Контейнер для центрирования контента */
+.future-container {
+    max-width: 1226px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Обертка для контента с отступом от верха цветного блока */
+.future-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 196px; /* Отступ 196px от верха цветного блока .future */
+}
+
+/* Заголовок с градиентным текстом */
+.future-title {
+    width: 821px;
+    height: 150px;
+    background: linear-gradient(89.44deg, #AE67FA 1.84%, #F49867 97%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin-bottom: 64px; /* Отступ 64px после заголовка до кнопки */
+}
+
+/* Кнопка с рамкой */
+.future-button {
+    width: 337.58px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.future-button:hover {
+    color: rgba(255, 255, 255, 1);
+    border-color: #FF4820;
+    background-color: rgba(255, 72, 32, 0.1);
 }

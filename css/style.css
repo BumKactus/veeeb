@@ -315,14 +315,17 @@ button.welcome_start:hover{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
+    justify-content: space-between;;
+    }
 
 /* - текстовый контейнер для маленьких карточек - */
 .blog-text-container {
     width: 282.32px;
     height: 172px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 } 
 
@@ -343,6 +346,8 @@ button.welcome_start:hover{
     font-size: 19px;
     line-height: 30.29px;
     margin: 10px 0;
+
+    
 }
 
 /* - заголовок для большой карточки - */

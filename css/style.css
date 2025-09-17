@@ -428,7 +428,7 @@ button.welcome_start:hover{
     margin-bottom: 18px;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Выравниваем по верху */
+    align-items: flex-start; 
     position: relative;
 }
 
@@ -484,7 +484,84 @@ button.welcome_start:hover{
 }
 
 .future-button:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
     border-color: #FF4820;
     background-color: rgba(255, 72, 32, 0.1);
+}
+
+.future-footer {
+    position: absolute;
+    left: 137px;
+    top: 655px;
+    width: 186px;
+}
+
+/* Контейнер для логотипа и текста */
+.future-logo {
+    width: 186px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Изображение логотипа */
+.logo-image {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 23px; /* 708-655-30=23px отступа между лого и текстом */
+}
+
+/* Текст под логотипом */
+.logo-text {
+    width: 196px;
+    height: 64px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+
+/* Контейнер для текстовых блоков справа */
+.future-links {
+    position: absolute;
+    top: 655px;
+    left: 0;
+    width: 100%;
+}
+
+/* Общие стили для всех текстовых блоков */
+.links-block {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Заголовки блоков */
+.links-title {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 15px 0;
+}
+
+/* Текст в блоках */
+.links-text {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
 }
